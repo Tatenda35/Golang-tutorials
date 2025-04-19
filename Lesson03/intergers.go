@@ -21,7 +21,7 @@ func main(){
 	fmt.Println(ageOne, ageTwo, ageThree, ageFour)
 
 	// bits and memory: integer type 8bits, 16bits etc
-	var numOne uint = 127 //means it cant have a negative number.
+	var numOne uint8 = 255 //means it cant have a negative number and now we can go past 127 to 255.
 	var wordOne string = "Tatenda"
 	var length float32 = 1.5
 	decimalOne := 2.543
