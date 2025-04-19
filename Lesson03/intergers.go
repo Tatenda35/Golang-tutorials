@@ -21,11 +21,11 @@ func main(){
 	fmt.Println(ageOne, ageTwo, ageThree, ageFour)
 
 	// bits and memory: integer type 8bits, 16bits etc
-	var numOne int8 = 127
+	var numOne uint = 127 //means it cant have a negative number.
 	var wordOne string = "Tatenda"
 	var length float32 = 1.5
 	decimalOne := 2.543
-	fmt.Println(numOne)
+	fmt.Println(wordOne,"is capable of a gpa of", decimalOne,".")
 	fmt.Printf("%s, got a gpa of %.1f, though he knows to count to %d, not to mention that he is %.2f tall!\n", wordOne, decimalOne, numOne, length)
 
 	// gpa()
